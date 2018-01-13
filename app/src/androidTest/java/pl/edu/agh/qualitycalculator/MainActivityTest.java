@@ -57,6 +57,7 @@ public class MainActivityTest {
         onView(withId(R.id.etNum2)).perform(click()).perform(typeText("4"));
         onView(withId(R.id.btnSub)).perform(click());
         onView(withId(R.id.tvResult)).check(matches(withText("16.0 minus 4.0 gives value 12.0")));
+        // komentarz dla nowego commita
     }
 }
 
